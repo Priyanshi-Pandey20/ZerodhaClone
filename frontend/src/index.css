@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.nav-item{
+  margin-left: 40px;
+}
+.nav-link:hover{
+  color:#387ed1 !important
+}
+.footer-bottom-links{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+}
+.footer-bottom-links a:hover{
+  color:#387ed1 !important
+}
+.footer-link{
+  text-decoration: none;
+  color:#6c757d;
+   margin-bottom: 14px; 
+   font-size: 16px;
+}
+.footer-social a {
+  color: #6c757d;          
+  font-size: 22px;
+  transition: color 0.2s ease;
+}
+.footer-social a:hover{
+   color: #387ed1;
+}
+
+.footer-link:hover{
+  color:#387ed1
+}
+.footer-copyright {
+  color: #6b7280;          /* muted gray (Zerodha-like) */
+  font-size: 16px;
+  margin-top: 10px;
+  font-weight: 400;
+}
+.universe-logo {
+  height: 90px;              /* same box height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* FORCE ALL LOGOS SAME VISUAL SIZE */
+.universe-logo img {
+  width: 200px;              
+  height: 50px;              
+  object-fit: contain;      
+}
+.universe-text {
+  font-size: 16px;        
+  color: #6c757d;           
+  line-height: 1.6;        
+  max-width: 250px;         
+  text-align: center;
+}
+#supportHero{
+  background-color: #387ed1;
+  color: white;
+}
+#supportHero a{
+  color:white
+}
+#supportWrapper{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 150px;
+}
+#supportHero input{
+  padding: 50px 100px;
+  width:100%;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
